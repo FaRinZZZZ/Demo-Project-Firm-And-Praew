@@ -1,0 +1,114 @@
+Denso
+
+24 languages
+Article
+Talk
+Read
+Edit
+View history
+
+Tools
+Appearance  hide
+Text
+
+Small
+
+Standard
+
+Large
+Width
+
+Standard
+
+Wide
+Color (beta)
+
+Automatic
+
+Light
+
+Dark
+From Wikipedia, the free encyclopedia
+DENSO Corporation
+
+
+Company type	Public
+Traded as	
+TYO: 6902
+TOPIX Core 30 Component
+Industry	Automotive (Passenger/ Commercial Vehicle) parts
+Founded	December 16, 1949; 75 years ago
+Headquarters	Kariya, Aichi, Japan
+Key people	Koji Arima [jp][1] (chairman & CEO)
+Shinnosuke Hayashi [jp] (president and COO)
+Yasushi Matsui (vice president)
+Revenue	Increase¥5,108.291 billion (2018)[2]
+Operating income	Increase ¥412.676 billion (2018)[2]
+Net income	Increase ¥320.561 billion (2018)[2]
+Total assets	Increase ¥5,764.417 billion (2018)[2]
+Total equity	Increase ¥3,447.082 billion (2017)[2]
+Owners	Toyota Motor (24.77%)[3]
+Toyota Industries (8.72%)
+Website	www.denso.com Edit this at Wikidata
+DENSO Corporation (株式会社デンソー, Kabushiki-Gaisha Densō) is a global automotive components manufacturer headquartered in the city of Kariya, Aichi Prefecture, Japan.[4]
+
+After becoming independent from Toyota Motor, the company was founded as Nippon Denso Co. Ltd. (日本電装株式会社, Nippon Densō Kabushiki-Gaisha) in 1949. About 25% of the company is owned by Toyota.[5] Despite being a part of the Toyota Group of companies, as of the year ending March 2016, sales to the Toyota Group accounted for less than 50% of total revenue (44% of revenue originated from other car manufacturers in Japan, Germany, the U.S. and China).[6] In 2023, DENSO was the second largest auto parts supplier in the world.[7]
+
+In 2022, DENSO was listed at #278 on the Fortune Global 500 list with a total revenue of $49.0 billion and 167,950 employees.[8]
+
+As of 2021, DENSO consisted of 200 consolidated subsidiaries (64 in Japan, 23 in North America, 32 in Europe, 74 in Asia, and seven in Oceania and other regions).
+
+Name
+The name DENSO (電装, densō) is a blend word of the Japanese terms for "electricity" (電気, denki) and "device" (装置, sōchi).
+
+Operations
+The company develops and manufactures various auto parts, including gasoline and diesel engine components, hybrid vehicle components, climate control systems, instrument clusters, airbag systems, pre-crash radar systems, and spark plugs. DENSO also develops and manufactures non-automotive components, such as household heating equipment and industrial robots. A Denso industrial robot gained wide public attention in Japan when it conducted a game of shogi against professional players.[9][10]
+
+In June 2020, DENSO announced the opening of its "Electrification Innovation Center" at its plant in Anjō. The facility will support the company's development of products and technologies for electric and hybrid vehicles.[11]
+
+Sales
+In 2014, DENSO's global sales were distributed as follows:
+
+Thermal systems: 30.4%
+Powertrain control systems: 35.0%
+Electronic systems: 15.3%
+Electric systems: 9.4%
+Electric motors: 7.0%
+Other automotive products: 1.4%
+Industrial systems, consumer products: 1.1%
+Other non-automotive products: 0.4%
+DENSO Wave
+DENSO Wave is a subsidiary that produces automatic identification products (barcode readers and related products), industrial robots, and programmable logic controllers.[12] They are noted for creating the two-dimensional QR code, are a member of the Japan Robot Association, and support the ORiN standard.
+
+In 1992 Masahiro Hara, an engineer in the Research & Development department, was tasked with developing a new 2D code system to streamline the tracking of components used in the automotive industry. Traditional barcodes had limitations, including their low data capacity and sensitivity to damage, such as oil stains, which caused scanning errors. To overcome these challenges, Hara began researching and, in 1994, invented the QR code.
+
+Inspired by the black-and-white patterns of the Japanese strategy game Go, the QR code can store 200 times more characters than a standard barcode and remains readable even if 30% of its surface is damaged, thanks to its error correction mechanism. Originally referred to as the "ND code" (for Nippon Denso), it was later renamed QR code, short for Quick Response, to emphasize its fast readability. The QR code was released under a free license, which allowed it to gain widespread adoption beyond the automotive sector, expanding into industries such as logistics, commerce, marketing, and healthcare. [13]
+
+In the early 2000s, QR codes began to be integrated into mobile phones in Japan, where they were initially used to link to websites. This marked a turning point for the global spread of the technology, further accelerated by the rise of smartphones around 2010.
+
+By 2024, during the 30th anniversary of the QR code, Hara expressed pride in seeing his invention adopted worldwide across diverse fields, including design, healthcare, and even tattoos. He also highlighted its cultural appropriation by artists like qargo, who creatively combined QR codes with Lego bricks to produce interactive and unique portraits that tell inspiring stories.
+
+For his groundbreaking work, Masahiro Hara was awarded the European Inventor Award in 2014.
+
+DENSO International America
+Denso International America is the American subsidiary of Denso.
+
+In 1970, DENSO Corporation decided to expand overseas from Kariya, Japan, to North America. DENSO Sales California, Inc., was founded in Hawthorne, California, in March 1971. The company was staffed with only 12 associates, four of them being Americans. The objective of DENSO Sales California was to promote their air conditioner systems as options in Japanese-made vehicles.
+
+In May 1975, DENSO Corporation opened a sales division, Denso Sales, in Southfield, Michigan.
+
+In September 1975, DENSO International America opened a service center in Cedar Falls, Iowa. This was opened due to an agricultural parts contract with John Deere that included starter motors and meters.
+
+DENSO International America employs over 17,000 people at 38 locations between North, Central, and South America. At year end, on March 31, 2008, combined sales totaled $8.3 billion for all American locations.[14][15]
+
+Motorsports
+As Denso is a part of the Toyota Group, it also assists Toyota in participating and developing their cars for different motorsports categories. Denso manufactures customised electronics and different auto-parts specifically for Toyota-Lexus motorsports development divisions Toyota Racing Development and the European motorsports facility of the company Toyota Gazoo Racing previously named Toyota Motorsports GmbH located in Germany. Denso plays a vital role as an OEM by specifically engineering auto-parts and electronics for Toyota in motorsports which mainly include spark plugs, starter motors, fuel pumps, alternators, Engine Control Module (ECM) computer systems, engine & transmission sensors and many other high-performance automotive and motor racing equipments and accessories for Toyota to compete in a variety of motorsports categories which include NASCAR, Formula One (from 2002-2009), World Rally Championship, and World Endurance Championship. The Toyota TS030 Hybrid, using a Denso kinetic energy recovery system, finished second in the 2013 24 Hours of Le Mans.
+
+Denso products are also used in many local Japanese motorsports, including Super Formula and Super GT.
+
+Controversies
+Price fixing
+On January 30, 2012, the US Justice Department announced after two years of investigation that it had discovered part of a massive price fixing scheme in which Denso and Yazaki played a significant role. The conspiracy, which fixed prices and allocated components to such car manufacturers as Toyota and Honda, extended from Michigan to Japan, where it was also under investigation. Denso agreed to pay a fine of $78 million.[16][17]
+
+Fuel pump lawsuits
+In August 2020, a class-action lawsuit was filed in Quebec over alleged defective fuel pumps in a number of Acura, Honda, Lexus, Subaru, and Toyota vehicle models. A separate fuel pump lawsuit was filed for the remaining areas of Canada.[18]
