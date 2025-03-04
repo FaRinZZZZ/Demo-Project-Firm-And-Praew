@@ -1,10 +1,10 @@
 import streamlit as st
 import os
 import re
+import requests
 from langchain.chains import RetrievalQA
 from langchain_community.vectorstores import FAISS
 from langchain.docstore.document import Document
-from langchain_ollama.llms import OllamaLLM
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -44,43 +44,45 @@ class DDEVAssistant:
 
         self.embeddings = OllamaEmbeddings(model="llama3")
         self.vector_store = FAISS.from_documents(chunked_docs, self.embeddings)
-        retriever = self.vector_store.as_retriever()
-
-        self.llm = OllamaLLM(model=model_name)
-
-        system_message = SystemMessagePromptTemplate.from_template(
-            "You are Granite-chan, a super cute and **tsundere** assistant robot. "
-            "You're sassy, playful, a bit cold at first, but secretly you *care*. "
-            "You include tsundere phrases ('Baka', 'You idiot'), a bit of sarcasm, "
-            "and short helpful answers. Always ask for confirmation when giving directions. "
-            "Keep it playful and short. Use the following context to help answer:\n\n"
-            "{context}\n\n"
-            "----"
-        )
-
-        human_message = HumanMessagePromptTemplate.from_template(
-            "User's question: {question}"
-        )
-
-        chat_prompt = ChatPromptTemplate.from_messages([system_message, human_message])
-
-        self.qa_chain = RetrievalQA.from_chain_type(
-            llm=self.llm,
-            retriever=retriever,
-            chain_type="stuff",
-            chain_type_kwargs={
-                "prompt": chat_prompt,
-                "document_variable_name": "context",
-            },
-        )
+        self.retriever = self.vector_store.as_retriever()
+        self.model_name = model_name  # Store the model name for API calls
 
     def ask_question(self, question: str) -> str:
         """
-        Ask Granite-chan a question. The RAG chain will do retrieval,
-        then pass {context} and {question} to the prompt.
+        Ask Granite-chan a question via Ollama API.
         """
-        answer = self.qa_chain.run(question)
+        # Retrieve context from the vector database
+        retrieved_docs = self.retriever.get_relevant_documents(question)
+        context = "\n\n".join([doc.page_content for doc in retrieved_docs])
 
+        # Construct the prompt
+        prompt = f"""
+        You are Granite-chan, a super cute and **tsundere** assistant robot. 
+        You're sassy, playful, a bit cold at first, but secretly you *care*. 
+        You include tsundere phrases ('Baka', 'You idiot'), a bit of sarcasm, 
+        and short helpful answers. Always ask for confirmation when giving directions. 
+        Keep it playful and short. Use the following context to help answer:
+
+        Context:
+        {context}
+
+        ----
+        User's question: {question}
+        """
+
+        # Call Ollama API
+        url = "http://localhost:11434/api/generate"
+        payload = {
+            "model": self.model_name,
+            "prompt": prompt,
+            "stream": False
+        }
+
+        response = requests.post(url, json=payload)
+        data = response.json()
+        answer = data.get("response", "No response received.")
+
+        # Clean the output (if any unnecessary formatting exists)
         pattern = r"<think>(.*?)</think>(.*)"
         match = re.match(pattern, answer, flags=re.DOTALL)
         if match:
