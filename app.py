@@ -15,7 +15,7 @@ from langchain.prompts.chat import (
     HumanMessagePromptTemplate,
 )
 
-class DensoAssistant:
+class DDEVAssistant:
     def __init__(
         self,
         model_name: str = "deepseek-r1",
@@ -94,7 +94,7 @@ def main():
     st.title("D-DEV Assistant")
 
     if "assistant" not in st.session_state:
-        st.session_state["assistant"] = DensoAssistant(
+        st.session_state["assistant"] = DDEVAssistant(
             model_name="deepseek-r1",
             data_file="data/data.txt"
         )

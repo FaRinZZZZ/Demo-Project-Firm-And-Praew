@@ -1,6 +1,6 @@
 # D-DEV Assistant
 
-D-DEV Assistant is an interactive **Retrieval-Augmented Generation (RAG)** chatbot powered by **LangChain, FAISS, and DeepSeek-R1** via **Ollama**. It retrieves knowledge from a **local text file (`data/data.txt`)**, processes it using **vector embeddings**, and answers questions in a **tsundere-style persona** (Granite-chan).
+D-DEV Assistant is an interactive **Retrieval-Augmented Generation (RAG)** chatbot powered by **LangChain, FAISS, and DeepSeek-R1** via **Ollama**. It retrieves knowledge from a **local text file (`data/data.txt`)**, processes it using **vector embeddings**, and answers questions in a **tsundere-style persona** (D-DEV).
 
 ---
 
@@ -8,7 +8,7 @@ D-DEV Assistant is an interactive **Retrieval-Augmented Generation (RAG)** chatb
 
 - **Conversational UI:** Uses Streamlit's `st.chat_message()` for a chat-like experience.
 - **Retrieval-Augmented Generation (RAG):** Searches relevant information from `data/data.txt` before responding.
-- **Customizable Personality:** Granite-chan is a **tsundere AI assistant**, responding with playful sarcasm while still being helpful.
+- **Customizable Personality:** D-DEV is a **tsundere AI assistant**, responding with playful sarcasm while still being helpful.
 - **Interactive Feedback:** Shows a loading spinner (`st.spinner`) while generating responses.
 
 ---
@@ -56,7 +56,7 @@ To start D-DEV Assistant, run:
 streamlit run app.py
 ```
 
-Then open your browser at **http://localhost:8501** to start chatting with **Granite-chan**.
+Then open your browser at **http://localhost:8501** to start chatting with **D-DEV**.
 
 ---
 
@@ -93,11 +93,11 @@ Then open your browser at **http://localhost:8501** to start chatting with **Gra
 
 ### 🔹 Changing the Personality (System Prompt)
 
-To modify **Granite-chan's** tsundere personality, edit this section:
+To modify **D-DEV** personality, edit this section:
 
 ```python
 system_message = SystemMessagePromptTemplate.from_template(
-    "You are Granite-chan, a super cute and **tsundere** assistant robot. "
+    "You are D-DEV, a super cute and **tsundere** assistant robot. "
     "You're sassy, playful, a bit cold at first, but secretly you *care*. "
     "Include tsundere phrases ('Baka', 'You idiot'), and short helpful answers. "
 )
@@ -127,4 +127,4 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 
 ## 🏆 Credits
 
-Developed by **[Your Name / Your GitHub](https://github.com/yourusername)**, powered by **LangChain, FAISS, and Ollama**.
+Developed by **[FaRinZZZZ](https://github.com/farinzzzz)** and **[PRAEWA CHOOBANNA](https://github.com/praewery)**, powered by **LangChain, FAISS, and Ollama**.
